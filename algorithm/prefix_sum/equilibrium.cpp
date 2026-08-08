@@ -21,6 +21,10 @@ int findEquilibrium(vector<int> &arr) {
   }
 
   for (int i = 0; i < n; i++) {
+    cout << suff[i] << " ";
+  }
+
+  for (int i = 0; i < n; i++) {
     if (pref[i] == suff[i])
       return i;
   }
@@ -35,7 +39,7 @@ int main() {
 
   vector<int> arr = {1, 1, 1, 1};
 
-  cout << findEquilibrium(arr);
+  cout << "\n\n" << findEquilibrium(arr);
 
   return 0;
 }
