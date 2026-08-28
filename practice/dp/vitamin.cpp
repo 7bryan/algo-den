@@ -13,6 +13,9 @@ int solve() {
   for (int i = 0; i < n; i++) {
     if (dosis[i] == 1) {
       // 0/1 knapsack
+      for (int j = m; j >= 0; j++) {
+        if ()
+      }
     } else {
       // unbound knapsack
     }
