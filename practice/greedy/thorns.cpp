@@ -14,7 +14,7 @@ int solve() {
 
     if (cell == '@')
       coins++;
-    else if (cell == '*' && cells[i + 1] == '*' && i < len - 2)
+    else if (i < len - 2 && cell == '*' && cells[i + 1] == '*')
       return coins;
   }
 
