@@ -2,6 +2,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+void solve() {
+  int a;
+  cin >> a;
+}
+
 int main() {
   // Optimize I/O operations
   ios_base::sync_with_stdio(false);
@@ -9,7 +14,10 @@ int main() {
 
   int n, m, c;
   cin >> n >> m >> c;
-  while ()
+  while (n--) {
+    solve();
+    cout << "\n";
+  }
 
-    return 0;
+  return 0;
 }
